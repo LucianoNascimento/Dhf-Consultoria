@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(236, 236, 231);
+    margin: 0;
+}
+
+header .line{
+
+    background-color: rgb(236, 236, 231);
+    height: 10px;
+}
+
+.container {
+
+    max-width: 1140px;
+    margin: auto;
+    
+}
+
+.header--area{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.head-left img{
+
+    width: 64px;
+    height: 64px;
+    
+}
+
+.header--rigth {
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.header--menu {
+
+    cursor: pointer; 
+    margin-right: 60px;
+} 
+
+.header--menu img {
+
+    width: 24px;
+    height: 24px;   
+}
+
+.header--Menu1{
+
+  
+    overflow: hidden;
+}
+
+.hide{
+
+    transition: 1s;
+    opacity: 0;
+}
+
+.show {
+
+    transition: 1s;
+    opacity: 1;
+}
+
+.header--Menu1 a {
+
+    display: inline-block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: rgb(22, 20, 20);
+    font-size: 23px;
+    margin: 30px;
+}
+
+.header--Menu1 a:hover {
+
+    text-decoration: underline;
+}
+
+h1 {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+iframe{
+
+    position: relative;
+    top: -20px;
+    width: 80%;
+    height: 90vh;
+}
+
+@media (max-width: 425px) {
+
+
+    #efeito-menu{
+
+        margin-top: 100px;
+        
+    }
+
+    #A{
+        position: relative;
+        top: 20px;
+        right: 20px;
+    }
+
+    #es{
+
+        position: relative;
+        top: -45px;
+        right: 20px;
+    }
+
+    #c{
+
+        position: relative;
+        top: -110px;
+        right: 20px;
+    }
+
+    .slider--item {
+        
+        height:425px;
+     }
+
+}
