@@ -108,6 +108,7 @@ h1 {
 
 .slider--width {
 
+    width: 100%;
     height: 100%;
     display: flex;
     transition: all ease 0.3s;
@@ -171,7 +172,7 @@ h1 {
 
     .slider--item{
 
-       height: 1000px;
+       height: 100px;
     }
 }
 
@@ -198,7 +199,7 @@ h1 {
 
     .slider--item{
 
-       height: 100vw;
+       height: 100vh;
     }
 }
 
@@ -233,7 +234,7 @@ h1 {
 
     .slider--item {
         
-        height:100vw;
+        height:100vh;
      }
 
 }

@@ -96,13 +96,13 @@ h1 {
     line-height: 50px;
 }
 
-iframe{
+/* iframe{
 
     position: relative;
     top: -20px;
     width: 80%;
     height: 90vh;
-}
+} */
 
 @media (max-width: 425px) {
 
@@ -137,5 +137,6 @@ iframe{
         
         height:425px;
      }
+
 
 }
